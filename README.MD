@@ -52,6 +52,8 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 
 ## 🗄️ Database Schema
 
+> 📊 View the live DB diagram here: [dbdiagram.io/assignment-backend](https://dbdiagram.io/d/assignment-backend-68026ca31ca52373f58295f3)
+
 ### `keys`
 
 | Column | Type   | Description                     |

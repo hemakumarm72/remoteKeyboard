@@ -6,6 +6,6 @@ const app = express();
 
 config(app);
 
-app.listen(3000, () =>
+app.listen(process.env.PORT, () =>
   console.log('Server running at http://localhost:3000/api')
 );

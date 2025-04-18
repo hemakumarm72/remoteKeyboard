@@ -110,7 +110,7 @@ INSERT IGNORE INTO control (id, userId, updatedAt) VALUES (1, NULL, NOW());
 
 ```bash
 
-
+PORT=
 DB_USERNAME=
 DB_PASSWORD=
 DB_HOST=

@@ -1,8 +1,7 @@
-
-
 # Remote Keyboard Application
 
 ## project file
+
 ```
 remote-keyboard/
 │
@@ -28,7 +27,7 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 ## 📦 Tech Stack
 
 - **Node.js + Express** for backend API
-- **MySQL** for state persistence
+- **MySQL** for data storage
 - **jQuery + AJAX** for client-server communication
 - **HTML/CSS** for frontend layout
 
@@ -55,17 +54,17 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 
 ### `keys`
 
-| Column | Type | Description                     |
-| ------ | ---- | ------------------------------- |
-| keyId     | INT  | Primary Key (0-9)               |
-| userId | string  | NULL (off), 1 (red), 2 (yellow) |
+| Column | Type   | Description                     |
+| ------ | ------ | ------------------------------- |
+| keyId  | INT    | Primary Key (0-9)               |
+| userId | string | NULL (off), 1 (red), 2 (yellow) |
 
 ### `control`
 
 | Column     | Type     | Description                    |
 | ---------- | -------- | ------------------------------ |
-| controlId         | INT      | Always 1 (singleton)           |
-| userId     | string      | Who currently has control      |
+| controlId  | INT      | Always 1 (singleton)           |
+| userId     | string   | Who currently has control      |
 | updated_at | DATETIME | When control was last acquired |
 
 ---
@@ -141,5 +140,5 @@ http://localhost:3000/?user=2
 - Timeout countdown display
 - Dynamic color support for more users
 - Logging key history (user clicks)
----
 
+---

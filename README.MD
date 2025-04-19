@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `keys` (
 );
 
 -- Insert 10 blank keys
-INSERT IGNORE INTO `keys` (id) VALUES (0),(1),(2),(3),(4),(5),(6),(7),(8),(9);
+INSERT IGNORE INTO `keys` (keyId) VALUES (0),(1),(2),(3),(4),(5),(6),(7),(8),(9);
 
 -- Tracks who has control and when they got it
 CREATE TABLE IF NOT EXISTS control (
@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS control (
 );
 
 -- Insert the default row
-INSERT IGNORE INTO control (id, userId, updatedAt) VALUES (1, NULL, NOW());
+INSERT IGNORE INTO control (controlId, userId, updatedAt) VALUES (1, NULL, NOW());
 
 ```
 

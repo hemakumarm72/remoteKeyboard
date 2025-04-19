@@ -1,5 +1,7 @@
 # Remote Keyboard Application
+
 ## Live https://remotekeyboard.onrender.com
+
 ## project file
 
 ```
@@ -63,10 +65,10 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 
 ### `control`
 
-| Column     | Type     | Description                    |
-| ---------- | -------- | ------------------------------ |
-| controlId  | INT      | Always 1 (singleton)           |
-| userId     | string   | Who currently has control      |
+| Column    | Type     | Description                    |
+| --------- | -------- | ------------------------------ |
+| controlId | INT      | Always 1 (singleton)           |
+| userId    | string   | Who currently has control      |
 | updatedAt | DATETIME | When control was last acquired |
 
 ---
@@ -77,6 +79,7 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 
 ```bash
 npm install
+npm start
 ```
 
 ### 2. Start MySQL & Create Database

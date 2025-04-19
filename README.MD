@@ -67,7 +67,7 @@ This project is a browser-based collaborative keyboard grid app built with Node.
 | ---------- | -------- | ------------------------------ |
 | controlId  | INT      | Always 1 (singleton)           |
 | userId     | string   | Who currently has control      |
-| updated_at | DATETIME | When control was last acquired |
+| updatedAt | DATETIME | When control was last acquired |
 
 ---
 

@@ -1,5 +1,5 @@
 # Remote Keyboard Application
-
+## Live https://remotekeyboard.onrender.com
 ## project file
 
 ```
@@ -116,6 +116,7 @@ PORT=
 DB_USERNAME=
 DB_PASSWORD=
 DB_HOST=
+DB_PORT=
 DB_NAME=
 
 ```
@@ -131,8 +132,8 @@ npm  start
 Visit:
 
 ```
-http://localhost:3000/?user=1
-http://localhost:3000/?user=2
+https://remotekeyboard.onrender.com/?user=1
+https://remotekeyboard.onrender.com/?user=2
 ```
 
 ---
